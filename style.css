@@ -53,6 +53,7 @@ main a{
   margin: 0px 10px;
   border-radius: 20px;
   transition-duration: 0.5s;
+  text-overflow: ellipsis;
 }
 
 main a:hover{
