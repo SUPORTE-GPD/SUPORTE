@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+/*RESET CSS*/
+*{
+  text-decoration: none;
+  margin: 0px;
+}
+
+:root{
+  /*#222222*/
+  --cor1:#109648;
+  --cor2:#053225;
+  --cor3:#275D8C;
+  --cor4:#152B59;
+  --cor5:#101726;
+
+  --fonte-padrao: Arial, Helvetica, sans-serif;
+  --fonte-destaque: 'Open Sans', cursive;
+}
+
+body{
+background-color: var(--cor4);
+}
+
+header{
+  height: 150px;
+  background-image: linear-gradient(to bottom, var(--cor3), var(--cor4), var(--cor5));
+}
+
+header h1{
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 50px;
+}
+
+main{
+  background-color: var(--cor4);
+  min-width: 300px;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 0px 0px 7px 7px;
+  columns: 2;
+}
+
+main a{
+  color: whitesmoke;
+  background-color: var(--cor1);
+  text-align: center;
+  font-family: var(--fonte-padrao);
+  font-size: 1.2em;
+  padding: 8px 20px;
+  display: block;
+  margin: auto;
+  margin: 0px 30px 10px 40px;
+  border-radius: 20px;
+  transition-duration: 0.5s;
+}
+
+main a:hover{
+  background-color: var(--cor2);
+  text-decoration: underline;
+}
+
+main img{
+  padding:20px 0px 10px 20px;
+  display: block;
+  margin: auto;
+}
+
+footer{
+  background-color: var(--cor5);
+  color: whitesmoke;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+footer p{
+  text-align: center;
+  font-family: var(--fonte-padrao);
+  padding: 15px;
+}

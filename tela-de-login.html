@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="tela-de-login.css" />
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+    <title>Efetue Login</title>
+  </head>
+  <body>
+    <div>
+      <h1>Login</h1>
+      <input type="text" placeholder="Usuário" id="user" />
+      <br /><br />
+      <input type="password" placeholder="Senha" id="pw" />
+      <br /><br />
+      <button onclick="logar()">Logar</button>
+    </div>
+    <script src="md5.js"></script>
+    <script>
+      var chave = '93cca14f5127751fd84c3d40cfa5d1c8'
+
+            function logar(){    
+                var user = document.getElementById('user').value
+                var senha = md5(document.getElementById('pw').value)
+                
+                
+                if(user == 'adm-gpd' && senha == chave){
+                    window.location.href = 'index.html'
+                }else{
+                    alert('Usuário ou senha incorreta!')
+                }
+            }
+    </script>
+  </body>
+</html>
