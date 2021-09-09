@@ -53,6 +53,9 @@ main a{
   margin: 0px 10px;
   border-radius: 20px;
   transition-duration: 0.5s;
+}
+
+.txt{
   text-overflow: ellipsis;
 }
 
