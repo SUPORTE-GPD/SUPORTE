@@ -24,7 +24,6 @@ font-family: Arial, Helvetica, sans-serif;
 
 header{
   height: 150px;
-  /*background-image: linear-gradient(to bottom, var(--cor3), var(--cor4), var(--cor5));*/
 }
 
 header h1{
@@ -42,7 +41,8 @@ main{
   columns: 2;
 }
 
-main a{
+.txt{
+  text-overflow: ellipsis;
   color: whitesmoke;
   background-color: var(--cor1);
   text-align: center;
@@ -54,10 +54,6 @@ main a{
   margin: 0px 10px;
   border-radius: 20px;
   transition-duration: 0.5s;
-}
-
-.txt{
-  text-overflow: ellipsis;
 }
 
 main a:hover{
