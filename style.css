@@ -9,7 +9,7 @@
 
 :root{
   --cor1:#109648;
-  --cor2:#053225;
+  --cor2:#064d39;
   --cor3:#275D8C;
   --cor4:#152B59;
   --cor5:#101726;
@@ -52,13 +52,13 @@ main{
   padding: 8px 10px;
   display: block;
   margin: auto;
-  border-radius: 20px;
+  border-radius: 10px;
   transition-duration: 0.5s;
 }
 
 main a:hover{
   background-color: var(--cor2);
-  text-decoration: underline;
+  border-radius: 20px;
 }
 
 main img{
