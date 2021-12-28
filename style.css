@@ -44,7 +44,7 @@ main{
 
 .txt{
   text-overflow: ellipsis;
-  color: whitesmoke;
+  color: white;
   background-color: var(--cor1);
   text-align: center;
   font-family: var(--fonte-padrao);
@@ -71,7 +71,7 @@ main img{
 
 footer{
   background-color: var(--cor5);
-  color: whitesmoke;
+  color: white;
   padding: 20px;
   margin-top: 40px;
 }
